@@ -1,0 +1,26 @@
+{
+  "name": "users",
+  "description": "Users",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "authorization": {
+      "sudo": {
+        "groups": [
+          "sysadmin"
+        ],
+        "users": [
+          "deployer"
+        ],
+        "passwordless": "false"
+      }
+    },
+    "users": [
+      "deployer"
+    ]
+  },
+  "run_list": [
+    "recipe[chef-solo-search]",
+    "recipe[users::sysadmins]",
+    "recipe[sudo]"
+  ]
+}
