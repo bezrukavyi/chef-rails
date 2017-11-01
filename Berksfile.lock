@@ -2,7 +2,9 @@ DEPENDENCIES
   nginx (~> 7.0.0)
   nodejs (~> 4.0.0)
   openssh (~> 2.6.0)
-  postgresql (~> 6.1.1)
+  postgresql
+    git: https://github.com/kirillshevch/postgresql.git
+    revision: fce4edddc74d3ae8f07903120c3539097885e021
   rvm
     git: https://github.com/martinisoft/chef-rvm.git
     revision: 9ab5f8fffe6bd18625347cfa760bd645a562e01b
@@ -10,7 +12,7 @@ DEPENDENCIES
   sudo (~> 3.5.3)
   swap_tuning (~> 0.2.0)
   ufw (~> 3.1.0)
-  users (~> 5.1.0)
+  users (~> 4.0.3)
 
 GRAPH
   apt (6.1.4)
@@ -51,7 +53,7 @@ GRAPH
   postgresql (6.1.1)
     build-essential (>= 2.0.0)
     compat_resource (>= 12.16.3)
-    openssl (>= 4.0)
+    openssl (>= 4.0.0)
   rvm (0.9.4)
     chef_gem (>= 0.0.0)
     java (>= 0.0.0)
@@ -63,7 +65,7 @@ GRAPH
     swap (~> 0.3)
   ufw (3.1.0)
     firewall (>= 2.0)
-  users (5.1.0)
+  users (4.0.3)
   windows (3.2.0)
     ohai (>= 4.0.0)
   yum-epel (2.1.2)

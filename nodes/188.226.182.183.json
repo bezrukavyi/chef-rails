@@ -1,0 +1,13 @@
+{
+  "run_list": [
+    "role[users]",
+    "role[security]",
+    "role[database]",
+    "role[app]",
+    "role[web]",
+    "recipe[chef-nginx::production]"
+  ],
+  "automatic": {
+    "ipaddress": "188.226.182.183"
+  }
+}

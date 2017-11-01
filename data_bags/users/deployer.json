@@ -1,0 +1,10 @@
+{
+  "id": "deployer",
+  "password": "$1$rB4gn6E8$7V4WSAxc5TnBW210tarSX.",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCtxmuHys8ZWlU9k5j/BEmHnsUH13UE2KbLJvybVwDWerKsRmfZZ920a3qJZqhWqV4ZnGw7D5B+Fnb35jFlJmTH4+Zb2G2KwSPQFrtGRRVDpD0GKhD0S/pt6nIdPHx70fxYIYTLxDnVE4rKjeIB8s5UeCoJw9wvWaTjh/eVo26Ef7ztjILDyVBmiAvUGw8/4eJzjExOz9zmOLAxHZV9xOBCCJTt21gwWH1WDD9OfY5shWT2qy9lVKmlspqfU0Dj1ZQTExB99sXYM8QHUFfJ7BGYh+MFhzgB+ipEM3RzkPKkbOlSteFwe7tyP40h1YIYDBhl5EaKke1EjlZpWWILoTos9fcHaAo/DQ5v4hPG66sTouEeSplCt4cKG6oNsREj62hEd1uwmZmKnjIFph+/jx3Gonff2/ygaXV3kioGaxtHnTbJVySk4m2SmCKegRor5zfSazlU30qUnXLuzTwBO2OWtqF3IfoShPfC9LR0gaDwYTszEglySVU+gjy67VwvpBF4accV6PrMCQ6Tuj/Xk47SWeZrAZqURtfwCZTmucfzsBMvf1NIA0gB9i8Xyz9HL1NpoxH83Oa4DT05PijC4pcLuPmW9CHwDun3wk2PwE9lLluxqvn9lsAwh02g7qYvaZ0tPAudotlv4ktqs6Yn2rmw2NolkoO8zf8Yv8kPPM0N3w== yaroslav555@gmail.com"
+  ],
+  "groups": ["www-data", "sudo", "rvm", "sysadmin"],
+  "shell": "\/bin\/bash",
+  "comment": "Deployer user"
+}
